@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 9, 2019, 5:32:40 PM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: tahoma;
+    background-image: url(../images/logo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;    
+}
+
+.box .img-fluid{
+    position: relative;
+    display: block;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90px;
+    width: 130px;    
+}
+.box{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 110px;
+    width: 300px;
+    padding: 15px;
+    background-color: rgba(0,118,163,.9);
+    /*box-shadow: 0px 0px 5px #666;*/
+}
+.box h3{
+    color: #fff;
+}
+.box form{
+    position: relative;    
+    margin-top: 30px;
+}
+.box form input{
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;    
+}
+.box form label{
+    position: relative;
+    top: -30px;
+    color: #fff;
+    padding-left: 10px;
+    transition: all ease-in-out .3s;
+}
+.box form input:focus{
+    background: transparent;
+    box-shadow: none;
+    color: #fff;
+}
+.box form input:focus ~ label, .box form input:valid ~ label{
+    position: relative;
+    top: -60px;
+    padding-left: 0px;
+}
+.box form input:valid{
+    color: #fff;
+}
+.box form .btn-block{
+    border-radius: 0px;
+    border: none;
+    background-color: #005587;
+    color: #fff;
+}
+.box form a{
+    color: #d7d7d7;
+    text-decoration: none;
+}
+
+
+
+
+
+@media (max-width: 500px){
+    .box{
+        margin-top: 90px;
+    }
+    .box .img-fluid{
+        
+    }
+    .box h1{        
+        font-size: 22px;
+    }
+    .box form{
+        margin-top: 10px;
+    }
+}

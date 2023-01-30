@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 23, 2019, 9:08:33 PM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    font-family: tahoma;
+    color: #4a4f55;
+}
+
+.timeline{
+    position: absolute;
+    list-style: none;    
+    left: 50%;
+    margin-left: -350px;
+    top: 5px;
+    width: 700px;
+    text-align: center;
+}
+.timeline li{
+    position: relative;
+    display: inline-block;
+    width: 90px;
+}
+
+header{
+    padding: 20px;
+    border-bottom: 1px solid #ccc;        
+    height: 80px;
+}
+header h2{
+    position: absolute;
+    top: 32px;
+}
+header h4{
+    position: absolute;
+    color: #0076a3;
+    right: 20px;
+    top: 40px;
+}
+.container{    
+    padding-top: 10px;    
+}
+
+.container form input, .container form #Status, .container form #formaPag, .container form #competencia{
+    height: 30px;
+    font-size: 12px;    
+}
+
+.container form #obs{
+    font-size: 12px;    
+    text-align: justify;
+}
+
+.control_bar{    
+    padding-top: 10px;
+    text-align: end;    
+}
+.control_bar .btn{
+    height: 30px;
+    padding: 0px;
+    width: 150px;    
+}
+.control_bar .btn .material-icons{
+    position: relative;
+    top: 2px;
+    font-size: 16px;
+}
+
+/* visualização de imagem (logomarca) */
+.container form #viewlogo{
+    position: absolute;
+    width: 350px;
+    top: 150px;
+    right: 120px;
+}
+
+.container form #File{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2px;    
+}
+
+
+/* Altura para TabContents */
+.tab-content{
+    min-height: 420px;
+}
+
+/* search buttons */
+#btn_search, #search_cep, #search_cnpj{
+    position: relative;
+    width: 40px;
+    height: 30px;
+    top: -30px;
+    float: right;
+    padding: 0px;
+}
+#btn_search i, #search_cep i, #search_cnpj i{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.container form .inf{
+    position: absolute;
+    font-size: 10px;
+    color: #0076a3;    
+}
+
+/* fieldset do recibo */
+#fieldset{
+    border: 2px solid #0076a3;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container form .logo{
+    width: 250px;
+}
+.container .endereco{
+    font-size: 14px;
+}
+.container form h6{
+    border-top: 1px solid;
+}
+
+/* requerimento viewrequerimento */
+#viewrequerimento{
+    position: relative;
+    border: 1px solid #ccc;
+    top: -70px;
+    float: right;
+}

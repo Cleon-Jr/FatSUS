@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 16, 2019, 2:10:25 PM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    font-family: tahoma;
+    padding: 0px;
+    margin: 0px;
+    color: #4a4f55;
+}
+
+.content-page{
+    position: relative;    
+    min-height: 500px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.content-page form{
+    
+}
+.content-page form .tab-content{
+    padding: 10px;
+    background-color: #ebebeb;
+}
+.content-page h4{
+    margin-right: 10px;
+}
+.content-page form input{
+    font-size: 13px;
+    height: 30px;
+}
+.content-page .tab-content{
+    min-height: 450px;
+}
+.image-upload > input{
+    display: none;
+}
+.image-upload i{
+    position: relative;
+    font-size: 64px;
+    color: #0076a3;    
+}
+.image-upload i:hover{
+    cursor: pointer;
+}
+.content-page .form-row .map_frame{
+    position: relative;
+    float: right;
+    border: 1px solid;
+    top: -50px;
+    left: 100px;
+    width: 300px;
+    height: 250px;
+}
+.content-page form #pane3 #cont{
+    color: #0076a3;
+}
+
+.control-bar{    
+    padding: 5px;
+    text-align: right;
+    margin-bottom: 25px;
+}
+.control-bar .btn{
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+}
+.control-bar .btn i{
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    top: 2px;    
+}

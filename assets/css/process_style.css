@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 24, 2019, 10:44:41 AM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{    
+    font-family: tahoma;
+    color: #4a4f55;
+}
+
+.header{    
+    color: #4a4f55;    
+    padding: 10px 20px 0px;
+    margin-top: 20px;
+}
+
+.timeline{    
+    position: absolute;  
+    list-style: none;
+    right: 10px;
+    top: 1px;
+    display: block;    
+}
+.timeline li a{
+    color: #4a4f55;
+    text-decoration: none;
+}
+.timeline li{
+    display: inline-block;
+    font-size: 10px;
+    width: 100px;    
+}
+
+.header h4{
+    position: absolute;
+    right: 10px;
+    top: 48px;
+}
+
+.content-page{
+    padding: 10px;    
+}
+.tab-content{
+    min-height: 420px;
+}
+
+.container form input{
+    height: 30px;
+    font-size: 14px;    
+}
+/* processo */
+.container form #combobox{
+    height: 30px;
+    font-size: 14px;
+    padding: 0px;
+}
+/* recibo */
+.container form #F_pagamento{
+    height: 30px;
+    font-size: 14px;
+    padding: 0px;
+}
+/* requerimento */
+.container form #Mes{
+    height: 30px;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.container form #btn_search{
+    position: relative;
+    height: 30px;
+    width: 50px;
+    padding: 0px;
+    float: right;
+    top: -30px;
+}
+.container form #btn_search i{
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.container form .control-bar{
+    text-align: end;
+}
+.container .control-bar .btn{   
+    height: 30px;
+    width: 150px;
+    padding: 0px;    
+}
+.container .control-bar .btn i{    
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    top: 2px;
+}

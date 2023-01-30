@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2019, 11:02:10 AM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    font-family: tahoma;
+    color: #4a4f55;
+}
+
+header{
+    padding: 10px;
+    border-bottom: 1px solid #ccc;    
+    height: 80px;
+}
+header h2{
+    position: absolute;
+    top: 30px;
+}
+header h4{
+    position: relative;
+    top: 30px;
+    color: #0076a3;
+}
+
+form h4, .container h4{
+    border-bottom: 1px solid #ccc;
+}
+
+
+.container form input, .container form #Status, .container form #formaPag, .container form #competencia{
+    height: 30px;
+    font-size: 12px;
+}
+.container form #atividade_s{
+    font-size: 12px;
+}
+.container form #obs{
+    font-size: 12px;
+}
+.container form #cont_char{
+    font-weight: bold;
+    font-size: 14px;
+    color: #0076a3;
+    float: right;
+}
+
+.container form .btn, .container .control-bar .btn{
+    height: 30px;
+    width: 150px;
+    padding: 0px;
+    font-size: 14px;
+}
+.container form .btn i, .container .btn i{
+    position: relative;
+    font-size: 16px;
+    top: 2px;
+}
+.container form .btn_processo, .container .control-bar .btn{
+    float: right;
+    margin-left: 5px;
+}
+
+
+.container .card-header{
+    background-color: #0076a3;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    padding: 0px 10px;    
+}
+
+.container #Accordion #btn_search{
+    position: relative;
+    top: -30px;
+    float: right;
+    width: 40px;    
+    padding: 4px 0px;
+}
+
+.container #Accordion #viewlogo{
+    position: absolute;
+    width: 200px;
+    top: 520px;
+    right: 380px;    
+}
+
+.container #Accordion #logo_file{
+    position: relative;    
+    width: 100%;
+    font-size: 50px;
+    padding: 10px;        
+}
+.container #Accordion #file{
+    position: absolute;    
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    right: 0px;
+    padding: 10px;
+    opacity: 0;
+}
+.container #Accordion #logo_file:hover{    
+    color: #0076a3;
+}
+
+.container .tab-pane{
+    min-height: 380px;
+}
+
+
+.container #fieldset{
+    border: 2px solid #0076a3;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.container #sign{
+    border-top: 1px solid;
+}
+
+.container form .paper{
+    padding: 5px;
+    
+}
+.container form .paper fieldset{
+    position: relative;    
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 550px;
+    border: 1px solid #d7d7d7;    
+    box-shadow: 2px 2px 5px #666;
+}
+.container form .paper img{
+    width: 100px;
+}
+.container form .paper p{
+    text-align: justify;
+    font-size: 9px;
+    text-indent: 50px;
+}
+
+.container form #nfe_file{
+    display: none;
+}

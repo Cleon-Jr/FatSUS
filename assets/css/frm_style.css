@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 17, 2019, 3:18:56 PM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html, body{
+    font-family: tahoma;
+    color: #4a4f55;
+    padding: 0px;
+    margin: 0px;
+}
+
+.content-page{
+    padding: 10px;
+}
+
+
+.content-page form input{
+    font-size: 13px;
+    height: 30px;
+}
+.content-page form .btn{    
+    width: 150px;
+    height: 30px;
+    padding: 0px;    
+}
+.content-page form .btn i{
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    top: 2px;
+}
+.control-bar{
+    text-align: right;
+}
+
+/* Upload */
+.image-upload > input{
+    display: none;
+}
+.image-upload i{
+    position: relative;
+    font-size: 64px;
+    color: #0076a3;    
+}
+.image-upload i:hover{
+    cursor: pointer;
+}
+
+#btn_search{
+    position: relative;
+    float: right;
+    height: 30px;
+    width: 50px;
+    padding: 0px;
+    top: -30px;
+}
+#btn_search i{
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+/* frm_manager */
+#customFile{    
+    padding: 2px;   
+    border-radius: 5px;
+    width: 350px;
+    padding-left: 10px;
+}
+#labelFile{
+    position: absolute;
+    background-color: #0076a3;
+    color: #fff;
+    height: 30px;
+    width: 93px;    
+    padding: 2px 4px;
+    top: 0px;
+    border-radius: 5px;
+}
+.img-logo{
+    position: absolute;
+    left: 0px;
+    width: 270px;
+    margin-left: 30px;
+    top: -10px;
+}

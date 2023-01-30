@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 17, 2019, 2:26:51 PM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    tahoma;
+    color: #4a4f55;
+}
+
+.content-page{
+    padding: 5px;
+}
+.content-page h4{
+    margin-right: 10px;
+}
+
+.btn-success{
+    width: 150px;
+    height: 30px;
+    padding: 0px;
+}
+.btn-success i{
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    top: 1px;
+}
+
+.alert-danger, .alert-success{
+    margin: 5px;    
+}
+
+#form_search{
+    position: relative;
+    margin: 0px;
+    
+}
+#form_search input{
+    height: 30px;
+    font-size: 13px;
+}
+#form_search #btn_search{
+    position: relative;
+    float: right;
+    height: 30px;
+    width: 50px;
+    padding: 0px;
+    top: -30px;
+}
+#form_search #btn_search i{
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+.alert-danger, .alert-success{
+    position: relative;    
+    border-radius: 4px;
+    height: 30px;
+    padding: 2px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.pagination{
+    justify-content: center;   
+}
+.pagination .btn-light{    
+    border-radius: 0px;
+    height: 30px;    
+    width: 30px;
+    padding: 0px;
+    margin: 2px;    
+}
+
+.table{
+    margin-top: 10px;
+}
+.table tr td{
+    height: 30px;
+    font-size: 14px;
+    padding: 3px;    
+}
+.table #tb_head{
+    font-weight: bold;
+    background-color: #0076a3;
+    color: #fff;
+}
+.table .btn{
+    width: 90px;
+    height: 30px;    
+}
+.table .btn i{
+    position: relative;
+    font-size: 16px;
+    top: -2px;
+    color: #fff;
+}
+.table #status td{
+    background-color: #e1e1e1;
+}

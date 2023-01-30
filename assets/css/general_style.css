@@ -1,0 +1,181 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 14, 2019, 12:17:32 PM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;    
+}
+
+body{    
+    font-family: tahoma;    
+}
+
+/* start_page */
+.background_logo .img-fluid{
+    position: static;
+    margin-top: 100px;
+}
+/* start_page */
+
+
+.navbar-light{
+    background-color: #0076a3;   
+}
+.navbar-brand .img-fluid{
+    width: 100px;
+}
+.navbar-nav .nav-item .nav-link{    
+    position: relative;
+    height: 30px;
+    width: 100px;
+    top: 15px;
+    padding: 5px;
+    text-align: center;
+    color: #ebebeb;
+}
+
+.status-top{
+    position: absolute;    
+    right: 10px;    
+    top: 0px;    
+    font-size: 12px;
+    color: #fff;
+}
+
+/* menu button */
+i a{
+    position: relative;
+    font-size: 32px;
+    color: #959595;
+    top: 60px;
+    left: 15px;
+    z-index: 1;
+}
+
+#submenu_config{
+    position: absolute;    
+    padding: 0px;
+    top: 60px;
+    display: none;    
+}
+#submenu_config ul{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 200px;
+    list-style: none;    
+    background-color: #0076a3;    
+    padding: 5px;
+}
+#submenu_config ul li{
+    padding: 3px; 
+}
+#submenu_config ul li .material-icons{    
+    position: relative;
+    font-size: 16px;
+    top: 1px;
+    margin: 3px 0px;
+}
+#submenu_config ul a{
+    color: #ebebeb;
+    text-decoration: none;    
+}
+.navbar-nav #config:hover #submenu_config{
+    display: block;    
+}
+#submenu_config ul li:hover{
+    background-color: #005587;
+}
+
+
+
+
+
+
+/* Side Menu */
+#boxMenu{
+    position: relative;    
+    top: 22px;
+    width: 250px;
+    min-height: 550px;
+    color: #fff;
+    background-color: #0076a3;    
+    z-index: 1111;
+    left: -250px;
+    transition: all ease-in-out .3s;    
+}
+#boxMenu.active{
+    left: 0px;
+}
+.box-menu .user-reg i{
+    position: absolute;
+    right: 0px;
+    top: -60px;
+    margin-right: 15px;
+    color: #fff;
+}
+.box-menu .user-reg{
+    padding: 5px;
+}
+.box-menu .user-reg h4{
+    position: relative;
+    margin-top: 10px;
+}
+.box-menu .img-fluid{    
+    width: 50px;
+}
+#menuItems ul{
+    position: relative;
+    display: block;
+}
+#menuItems ul a{
+    text-decoration: none;
+    color: #fff;
+}
+#menuItems ul li{    
+    border: 1px solid;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 7px 30px;
+    margin-left: 5px;
+}
+#menuItems ul li:hover{
+    background-color: #005587;
+}
+#menuItems #sub_menu{    
+    background-color: #4298cc;
+    list-style: none;
+    padding-left: 25px;
+}
+#menuItems ul i{
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    top: 1px;
+}
+
+
+
+/* frame */
+
+#Myframe{
+    position: absolute;
+    top: 61px;
+    width: 100%;    
+    min-height: 90vh;
+}
+
+
+.footer{
+    position: absolute;
+    margin: 10px;
+}
+

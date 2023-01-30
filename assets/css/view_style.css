@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 20, 2019, 5:19:01 PM
+    Author     : Cleon
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: tahoma;
+    color: #4a4f55;
+}
+
+.content-page{
+    padding: 10px;
+    margin-top: 30px;
+}
+.content-page h4{
+    margin-left: 10px;
+}
+
+.form-group {
+    border-right: 1px solid #e1e1e1;
+}
+.form-group label, .form-group input{
+    height: 30px;
+    font-size: 14px;
+}
+.form-group label{
+    float: right;
+    padding-top: 10px;    
+}
+.form-group input{
+    margin-top: 5px;
+}
+
+#bar-control .form-group{
+    border: none;
+}
+
+.btn{
+    width: 150px;
+    height: 30px;
+    padding: 2px;
+    margin: 3px;
+}
+.btn-warning, .btn-warning:hover{
+    color: #fff;
+}
+.btn i{
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    top: 1px; 
+}
